@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="author" content="Denis Samardjiev" />
+	<meta name="description" content="Married | 3 in 1 Wedding Template">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>#ShikhaGetsIvoLastingLove</title>
+	
+	<!-- Preloader CSS -->
+	<link href="css/royal_preloader.css" rel="stylesheet">
+
+	<!-- jQuery -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+	<!-- Parallax -->
+	<script type="text/javascript" src="js/parallax.min.js"></script>
+
+	<!-- Preloader -->
+	<script type="text/javascript" src="js/royal_preloader.min.js"></script>
+	<script type="text/javascript">
+		Royal_Preloader.config({
+		    mode:           'number',
+		    showProgress:   false,
+		    background:     '#ffffff'
+		});
+	</script>
+
+	<!-- Stylesheets -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/ionicons.min.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" title="main-css">
+
+
+</head>
+<body class="royal_preloader" data-spy="scroll" data-target=".navbar" data-offset="81">
+	<div id="royal_preloader"></div>
+
+	
+	
+
+	<!-- Begin Header -->
+	<header>
+		<!-- Begin Navigation -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="row">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					
+					</div>
+ 
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#slideshow" data-id="slideshow" class="scroll-link">Home</a></li>
+							<li><a href="#story" data-id="story" class="scroll-link">Story</a></li>
+							<li><a href="#location" data-id="location" class="scroll-link">Location</a></li>
+							<li><a href="#gallery" data-id="gallery" class="scroll-link">Gallery</a></li>
+							<li><a href="#registry" data-id="registry" class="scroll-link">Registry</a></li>
+							<li class="nav-btn"><a data-toggle="modal" data-target="#rsvp-modal" class="btn btn-primary btn-lg">RSVP</a></li>
+							
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</nav>
+		<!-- End Navigation -->
+
+		<!-- Begin RSVP Form -->
+		<div class="modal fade" id="rsvp-modal" tabindex="-1" role="dialog">
+		    <div class="modal-dialog">
+		        <div class="modal-content">
+		            <div class="modal-header">
+		                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="ion-ios-close-empty"></span>
+		                </button>
+		                <span class="pe-7s-anchor services-icon-2"></span>
+		                <h4 class="modal-title">RSVP</h4>
+		            </div>
+		            <div class="modal-body">
+		            	<p class="mb20">Please enter your name and email and RSVP!</p>
+						<form data-toggle="validator" id="contactForm" name="contactForm">
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label for="name">Name *</label>
+										<div class="controls">
+											<input class="form-control" data-error="This section is required." id="name" placeholder="Your full name" required="" type="text">
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+								</div><!-- /.column -->
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label for="name">Email *</label>
+										<div class="controls">
+											<input class="email form-control" data-error="This section is required." id="email" placeholder="Enter your email" required="" type="email">
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+								</div><!-- /.column -->
+							</div><!-- /.row -->
+							<div class="row">
+								<div class="col-sm-12">
+									<div class="form-group">
+										<label for="name">Guests *</label>
+										<div class="controls">
+											<input class="form-control" data-error="This section is required."
+											id="msg_subject" placeholder="Total guests with names" required="" type="text">
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+								</div><!-- /.column -->
+							</div><!-- /.row -->
+							<div class="row">
+								<div class="col-sm-12">
+									<div class="form-group mb10">
+										<label for="name">Message *</label>
+										<div class="controls">
+											<textarea class="form-control" data-error="This section is required." id="message" placeholder="Any extra information" required="" rows="5"></textarea>
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-12 mb20">
+									<div id="msgSubmit" class="h4 hidden no-margin-bottom"></div> 
+								</div><!-- /.column -->
+								<div class="col-sm-12 text-right">
+									<button type="submit" id="submit" class="btn btn-primary btn-block btn-lg">Send</button>
+								</div><!-- /.column -->
+							</div><!-- /.row -->
+						</form><!-- /.form -->
+		            </div>
+		        </div><!-- /.modal-content -->
+		    </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+		<!-- End RSVP Form -->
+
+	</header>
+	<!-- End Header -->
+
+	<!-- Begin Slideshow -->
+	<div id="slideshow" class="carousel carousel-fade slide" data-ride="carousel">
+
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner">
+
+			<!-- Overlay Text -->
+			<div class="overlay bottomReveal">
+				<div class="center-vertically-holder">
+					<div class="center-vertically">
+						<h1 class="header-title">
+							Ivo &amp; Shikha are getting married!
+						</h1>
+						<hr class="hr-onimage">
+						<p class="mb20 p-bold">On December 6th, in Samode Palace, Jaipur!</p>
+						<button class="btn btn-lg btn-primary" data-toggle="modal" data-target="#rsvp-modal">RSVP</button>
+					</div>
+				</div>
+
+				<div class="scroll-down mb30">
+		            <a href="#story" data-id="story" class="btn scroll-link"><span class="ion-ios-arrow-down scroll-indicator"></span></a>
+		        </div>
+			</div>
+
+			<!-- Slideshow Images -->
+			<div class="item active">
+				<div class="fill" style="background-image:url('images/header.jpg');"></div>
+				<div class="carousel-caption">
+                   
+                </div>
+			</div>
+			<div class="item">
+				<div class="fill" style="background-image:url('images/header-2.jpg');"></div>
+				<div class="carousel-caption">
+                    
+                </div>
+			</div>
+			<div class="item">
+				<div class="fill" style="background-image:url('images/header-3.jpg');"></div>
+				<div class="carousel-caption">
+                   
+                </div>
+			</div>
+		</div>
+
+	</div>
+	<!-- End Slideshow -->
+
+		<!-- Start Story -->
+		<section id="story" class="section-padding section-border-bottom">
+			<div class="container">
+				<div class="row">
+					<!-- Title -->
+					<div class="col-sm-12">
+						<h2 class="section-title">Story</h2>
+						<hr class="hr-small mb30">
+					</div><!-- /.column -->
+				</div><!-- /.row -->
+	
+				<div class="row">
+					<div class="col-sm-8 col-sm-offset-2 text-center rotateLeftReveal">
+						<h2 class="h1 no-margin-top mb20 topReveal">How we met each other.</h2>
+						<p class="mb20">Dating apps do work! It was a deep learning machine algorithm that recommended us to each other! Take that BARS! </p>
+						<p class="mb20">We played a lot of video games shortly after. <span class="text-heavy text-color">We love Diablo 2! and Each other! </span> Ivo Proposed shortly after at a farm. </p>
+						<p class="mb30">The rest is going to be published in our 200 page autobiography coming out 2025.</p>
+	
+						<!-- Social -->
+						<!-- <h3 class="section-sub-title">Share</h3>
+						<iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;layout=button_count&amp;size=small&amp;mobile_iframe=true&amp;width=86&amp;height=20&amp;appId" width="96" height="20" style="border:none;overflow:hidden"></iframe>
+						<iframe id="tweet-button" scrolling="no" src="http://platform.twitter.com/widgets/tweet_button.html?via=marcus_christie&amp;text=Replace%20Me&amp;count=horizontal" style="width:63px; height:20px;"></iframe> -->
+					</div><!-- /.column -->
+				</div><!-- /.row -->
+	
+			</div><!-- /.container -->
+		</section>
+		<!-- End Story -->
+	
+		<!-- Start Timeline -->
+		<section class="section-padding-top section-border-bottom">
+			<div class="container">
+				<div class="row">
+					<!-- Title -->
+					<div class="col-sm-12">
+						<h2 class="section-title">Timeline</h2>
+						<hr class="hr-small mb40">
+					</div><!-- /.column -->
+				</div><!-- /.row -->
+	
+				<div class="row">
+					<div class="col-lg-12">
+						<ul class="timeline timeline-pad">
+							<!-- Item 1 -->
+							<li>
+								<div class="timeline-image scaleReveal"><img alt="" class="img-circle img-responsive" src="images/gallery/10.jpg"></div>
+								<div class="timeline-panel leftReveal">
+									<div class="timeline-heading">
+										<h3 class="section-sub-title mb15">2019</h3>
+										<h4>We met each other at Sid's Gold</h4>
+									</div>
+									<div class="timeline-body">
+										<p>Sid's Gold has Bomb Music!</p>
+									</div>
+								</div>
+							</li>
+	
+							<!-- Item 2 -->
+							<li class="timeline-inverted">
+								<div class="timeline-image scaleReveal"><img alt="" class="img-circle img-responsive" src="images/gallery/10.jpg"></div>
+								<div class="timeline-panel rightReveal">
+									<div class="timeline-heading">
+										<h3 class="section-sub-title mb15">2019</h3>
+										<h4>Should we play another hours of Diablo 2?</h4>
+									</div>
+									<div class="timeline-body">
+										<p>Here we are seeing debating if we should 7 hours of sleep or sacrifice that precious hour so we can play another hour of Diablo 2!</p>
+									</div>
+								</div>
+							</li>
+	
+							<!-- Item 3 -->
+							<li>
+								<div class="timeline-image scaleReveal"><img alt="" class="img-circle img-responsive" src="images/gallery/10.jpg"></div>
+								<div class="timeline-panel leftReveal">
+									<div class="timeline-heading">
+										<h3 class="section-sub-title mb15">2019 Novemeber</h3>
+										<h4>Were getting married!</h4>
+									</div>
+									<div class="timeline-body"> <p>Farm Pictures etc.</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div><!-- /.column -->
+				</div><!-- /.row -->
+	
+			</div><!-- /.container -->
+		</section>
+		<!-- End Timeline -->
+	
+		<!-- Begin Save Date -->
+		<div class="jumbotron jumbotron-page parallax-window" data-parallax="scroll" data-image-src="images/header-page.jpg">
+			<div class="container center-vertically-holder">
+				<div class="center-vertically">
+					<div class="col-md-10 col-md-offset-1 text-center">
+						<h3 class="section-sub-title mb10">Save The Date</h3>
+						<h2 class="no-margin text-white">
+							Dec 6th · 2020
+						</h2>
+					</div><!-- /.column -->
+				</div><!-- /.vertical center -->
+			</div><!-- /.container -->
+		</div>
+		<!-- End Save Date -->
+	
+		<!-- Start Location -->
+		<section id="location" class="section-padding section-border-bottom">
+			<div class="container">
+				<div class="row">
+					<!-- Title -->
+					<div class="col-sm-8 col-sm-offset-2 text-center">
+						<h2 class="section-title">Location</h2>
+						<hr class="hr-small">
+						<p class="mb50">Samode Palace, Jaipur. Put some more description here.</p>
+					</div><!-- /.column -->
+				</div><!-- /.row -->
+	
+				<div class="row">
+					<!-- Item 1 -->
+					<div class="col-sm-4 text-center leftReveal">
+						<h3 class="section-sub-title">Day 1 Festivities</h3>
+						<img src="images/venue-1.jpg" class="img-responsive img-venue rotateLeftReveal" alt="...">
+						<h2 class="section-venue-title">Samode Bagh</h2>
+						<p class="no-margin-bottom">Dec 5th,  3pm-10pm · Jaipur, India</p>
+						<small>
+							<em>
+								<a class="popup-gmaps underline-link" href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom">Open Map</a>
+							</em>
+						</small>
+					</div><!-- /.column -->
+	
+					<!-- Item 2 -->
+					<div class="col-sm-4 text-center bottomReveal">
+						<h3 class="section-sub-title mt40-xs">Day 2 Festivities</h3>
+						<img src="images/venue-2.jpg" class="img-responsive img-venue rotateLeftReveal" alt="...">
+						<h2 class="section-venue-title">Samode Palace</h2>
+						<p class="no-margin-bottom">Dec 6th,  1pm-11pm · Jaipur, India</p>
+						<small>
+							<em>
+								<a class="popup-gmaps underline-link" href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom">Open Map</a>
+							</em>
+						</small>
+					</div><!-- /.column -->
+	
+					<!-- Item 3 -->
+					<div class="col-sm-4 text-center rightReveal">
+						<h3 class="section-sub-title mt40-xs">Day 3 Festivities</h3>
+						<img src="images/venue-3.jpg" class="img-responsive img-venue rotateLeftReveal" alt="...">
+						<h2 class="section-venue-title">Samode Palace</h2>
+						<p class="no-margin-bottom">Dec 7th,  1pm-11pm · Jaipur, India</p>
+						<small>
+							<em>
+								<a class="popup-gmaps underline-link" href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom">Open Map</a>
+							</em>
+						</small>
+					</div><!-- /.column -->
+				</div>
+	
+				<div class="row">
+					<!-- Title -->
+					<div class="col-sm-8 col-sm-offset-2 text-center mt50">
+						<p class="no-margin"><span class="text-heavy text-color">*</span> Donec vitae sapien quis nisl gravida finibus. Aenean in condimentum nisl, hendrerit aliquet quam. Aenean in condimentum nisl, hendrerit aliquet quam.</p>
+					</div><!-- /.column -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</section>
+		<!-- End Location -->
+	
+		
+	
+	
+	<!-- Start Gallery -->
+	<section id="gallery" class="section-padding section-border-bottom">
+		<div class="container">
+			<div class="row">
+				<!-- Title -->
+				<div class="col-sm-8 col-sm-offset-2 text-center">
+					<h2 class="section-title">Gallery</h2>
+					<hr class="hr-small">
+					<p class="mb40 scaleReveal">We did a cute little photoshoot for the wedding <span class="lead ion-happy-outline text-color"></span></p>
+				</div><!-- /.column -->
+			</div><!-- /.row -->
+
+			<div class="row">
+				<!-- Item 1 -->
+				<div class="col-sm-4 mb30">
+					<a href="images/gallery/1.jpg" title="Image 1" class="zoom">
+						<img src="images/gallery/1.jpg" class="img-responsive img-gallery" alt="...">
+					</a>
+				</div><!-- /.column -->
+
+				<!-- Item 2 -->
+				<div class="col-sm-4 mb30">
+					<a href="images/gallery/2.jpg" title="Image 2" class="zoom">
+						<img src="images/gallery/2.jpg" class="img-responsive img-gallery" alt="...">
+					</a>
+				</div><!-- /.column -->
+
+				<!-- Item 3 -->
+				<div class="col-sm-4 mb30">
+					<a href="images/gallery/3.jpg" title="Image 3" class="zoom">
+						<img src="images/gallery/3.jpg" class="img-responsive img-gallery" alt="...">
+					</a>
+				</div><!-- /.column -->
+
+				<!-- Item 4 -->
+				<div class="col-sm-4 mb30">
+					<a href="images/gallery/4.jpg" title="Image 4" class="zoom">
+						<img src="images/gallery/4.jpg" class="img-responsive img-gallery" alt="...">
+					</a>
+				</div><!-- /.column -->
+
+				<!-- Item 5 -->
+				<div class="col-sm-4 mb30">
+					<a href="images/gallery/5.jpg" title="Image 5" class="zoom">
+						<img src="images/gallery/5.jpg" class="img-responsive img-gallery" alt="...">
+					</a>
+				</div><!-- /.column -->
+
+				<!-- Item 6 -->
+				<div class="col-sm-4 mb30">
+					<a href="images/gallery/6.jpg" title="Image 6" class="zoom">
+						<img src="images/gallery/6.jpg" class="img-responsive img-gallery" alt="...">
+					</a>
+				</div><!-- /.column -->
+
+				<!-- Item 7 -->
+				<div class="col-sm-4 mb30-xs">
+					<a href="images/gallery/7.jpg" title="Image 7" class="zoom">
+						<img src="images/gallery/7.jpg" class="img-responsive img-gallery" alt="...">
+					</a>
+				</div><!-- /.column -->
+
+				<!-- Item 8 -->
+				<div class="col-sm-4 mb30-xs">
+					<a href="images/gallery/8.jpg" title="Image 8" class="zoom">
+						<img src="images/gallery/8.jpg" class="img-responsive img-gallery" alt="...">
+					</a>
+				</div><!-- /.column -->
+
+				<!-- Item 9 -->
+				<div class="col-sm-4">
+					<a href="images/gallery/9.jpg" title="Image 9" class="zoom">
+						<img src="images/gallery/9.jpg" class="img-responsive img-gallery" alt="...">
+					</a>
+				</div><!-- /.column -->
+			</div><!-- /.row -->
+
+		</div><!-- /.container -->
+	</section>
+	<!-- End Gallery -->
+	
+		<!-- Start Registry -->
+		<section id="registry" class="section-padding section-border-bottom">
+			<div class="container">
+				<div class="row">
+					<!-- Title -->
+					<div class="col-sm-8 col-sm-offset-2 text-center">
+						<h2 class="section-title">Registry</h2>
+						<hr class="hr-small">
+						<p class="lead-xl">Please give us either items or cash via Amazon or TheKnot links below!</p>
+					</div><!-- /.column -->
+				</div><!-- /.row -->
+	
+				<div class="row">
+					<!-- Content -->
+					<div class="col-sm-8 col-sm-offset-2 text-center">
+						<!-- Logos -->
+						
+						<a href="https://registry.theknot.com/ivo-kolev-shikha-choudhury-december-2020/38392083"><img src="images/logo-2.png" class="img-responsive registry-logo bottomReveal" alt="..."></a>
+						
+						<hr class="hr-small mt50 mb50">
+	
+<!-- 						
+						<h3 class="section-sub-title">More Options</h3>
+						<h2 class="section-venue-title bottomReveal">Check</h2>
+						<p class="no-margin bottomReveal">Hand deliver us a check.</p>
+						<h2 class="section-venue-title bottomReveal">Paypal</h2>
+						<p class="no-margin bottomReveal">You can send a little something <a class="color-link underline-link" href="http://paypal.com" target="_blank">here</a>.</p>				 -->
+			
+		</section>
+		<!-- End Registry -->
+	
+		<!-- Begin Our Count -->
+		<section id="ourcount" class="section-padding section-border-bottom">
+			<div class="container">
+				<div class="row">
+					<!-- Title -->
+					<div class="col-sm-8 col-sm-offset-2 text-center">
+						<h2 class="section-title">Us in Numbers</h2>
+						<hr class="hr-small mb40">
+					</div><!-- /.column -->
+				</div><!-- /.row -->
+	
+				<div class="row">
+					<!-- Item 1 -->
+					<div class="col-sm-6 col-md-3 item">
+						<div class="circle-hold">
+							<i class="ion-ios-paw-outline"></i>
+						</div>
+						<h2 class="timer mb5" data-from="1" data-to="1" data-refresh-interval="20">1</h2>
+						<p class="no-margin">Number of pets</p>
+					</div><!-- /.column -->
+	
+					<!-- Item 2 -->
+					<div class="col-sm-6 col-md-3 item mt30-xs">
+						<div class="circle-hold">
+							<i class="ion-ios-calendar-outline"></i>
+						</div>
+						<h2 class="timer mb5" data-from="1" data-to="12" data-refresh-interval="20">1</h2>
+						<p class="no-margin">Months until we Marry</p>
+					</div><!-- /.column -->
+	
+					<!-- Item 3 -->
+					<div class="col-sm-6 col-md-3 item mt30-xs mt30-sm">
+						<div class="circle-hold">
+							<i class="ion-ios-rose-outline"></i>
+						</div>
+						<h2 class="timer mb5" data-from="1" data-to="126" data-refresh-interval="20">1</h2>
+						<p class="no-margin">Roses Ivo gave me</p>
+					</div><!-- /.column -->
+	
+					<!-- Item 4 -->
+					<div class="col-sm-6 col-md-3 item mt30-xs mt30-sm">
+						<div class="circle-hold">
+							<i class="ion-ios-people-outline"></i>
+						</div>
+						<h2 class="timer mb5" data-from="1" data-to="4" data-refresh-interval="20">1</h2>
+						<p class="no-margin">19 months since we met!</p>
+					</div><!-- /.column -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</section><!-- /.section -->
+		<!-- End Our Count -->
+	
+	
+	
+		<!-- Start Footer -->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<!-- Logo -->
+					
+					<!-- Arrow -->
+					<div class="col-xs-2 text-right">
+						<a href="#" class="scroll-top"><i class="footer-arrow ion-ios-arrow-up"></i></a>
+					</div>
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</footer>
+
+	<!-- Javascript Files -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+	<script type="text/javascript" src="js/jquery.inview.min.js"></script>
+	<script type="text/javascript" src="js/jquery.countTo.js"></script>  
+	<script type="text/javascript">
+		/* ---- Counter (our count) ---- */
+		$('#ourcount').one('inview', function(event, isInView) {
+			if (isInView) {
+				$('.timer').countTo({speed: 3000});
+			}
+		});
+	</script>
+	<script type="text/javascript" src="js/form-validator.min.js"></script> 
+	<script type="text/javascript" src="js/style-switcher.js"></script>
+	<script type="text/javascript" src="js/scrollreveal.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
