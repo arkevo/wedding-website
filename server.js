@@ -17,7 +17,7 @@ app.get('/index2.html', (req, res) => {
     res.sendFile('/index2.html', { root: __dirname });
 });
 
-app.listen(8077);
+const port = process.env.PORT || 8077;
 
 
 
